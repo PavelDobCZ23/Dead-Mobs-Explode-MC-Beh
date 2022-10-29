@@ -1,0 +1,37 @@
+{
+    "metadata": {
+        "authors": ["PavelDobCZ23"],
+        "license": "GNU GPL v3 + The Commons Clause",
+        "url": "https://www.icecraftstudio.repl.co"
+    },
+    "format_version": 2,
+    "header": {
+        "description": "Mobs explode on death, have fun! §9Made by PavelDobCZ23",
+        "name": "Dead Mobs Explode [BP]",
+        "uuid": "6d492f87-d077-4354-a01c-94aeecf9d6d8",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 19, 40 ]
+    },
+    "modules": [
+        {
+            "description": "Dead Mobs Explode [BP] - data module",
+            "type": "data",
+            "uuid": "0c1f1d65-0453-4c8a-9c7d-f5d72e31e897",
+            "version": [ 1, 0, 0 ]
+        },
+        {
+            "description": "Dead Mobs Explode [BP] - script module",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "a602c619-01db-4d8d-b63d-6eb13e65de30",
+            "version": [ 1, 0, 0 ],
+            "entry": "scripts/main.js"
+        }
+    ],
+	"dependencies": [
+        {
+            "module_name": "mojang-minecraft",
+            "version": "1.0.0-beta"
+        }
+	]
+}
